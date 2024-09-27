@@ -2,13 +2,14 @@ public class Pessoa {
     private String nome;
     private int idade;
     private String cpf;
-// Dados do usuario que vai ser cadastrado no arquivo .txt
+// dados do usuario que vai ser cadastrado no arquivo 
     public Pessoa(String nome, int idade, String cpf) {
         this.nome = nome;
         this.idade = idade;
         this.cpf = cpf;
     }
 
+      
     public String getNome() {
         return nome;
     }
@@ -21,7 +22,7 @@ public class Pessoa {
         return cpf;
     }
 
-    @Override
+    
     public String toString() {
         return "Nome: " + nome + ", Idade: " + idade + ", CPF: " + cpf;
     }
